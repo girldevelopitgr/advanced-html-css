@@ -10,7 +10,7 @@
 
 5. You can view the code in the workshop-files-final folder for reference throughout the course
 
-#Access GDI Slides
+# Access GDI Slides
 
 1. Copy over slides folder to your desktop
 
