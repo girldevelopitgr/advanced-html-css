@@ -9,3 +9,9 @@
 4. You will be using the files in your my-site folder to follow along with the course
 
 5. You can view the code in the workshop-files-final folder for reference throughout the course
+
+#Access GDI Slides
+
+1. Copy over slides folder to your desktop
+
+2. View the index.html file in Chrome to follow along throughout the course 
