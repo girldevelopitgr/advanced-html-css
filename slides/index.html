@@ -85,7 +85,6 @@
             <section>
                 <h2>What we'll be covering in this class</h2>
                 <p>We'll be jumping into HTML/CSS right where the beginner class left off.</p>
-                <p>We will not be going over the previous class, we just don't have the time!</p>
                 <p>Some of you have your own projects that you can apply these concepts to later</p>
             </section>
             <section>
@@ -100,7 +99,7 @@
                 <p><a href="https://github.com/girldevelopitgr/advanced-html-css" target="_blank">https://github.com/girldevelopitgr/advanced-html-css</a></p>
                 <ul>
                     <li>We have provided a folder that contains sample images for you to use today. We encourage you to be creative so don't feel like you're restricted to these images</li>
-                    <li>We've included a blank index.html file for you to use, as well as the reference.html for you to use as a reference if you get stuck.</li>
+                    <li>We've included a blank index.html file for you to use, as well as the structure.html for you to use as a reference if you get stuck.</li>
                 </ul>
             </section>
             <section>
@@ -130,6 +129,177 @@
                         <li class="fragment">Fancy buttons</li>
                     </ul>
             </section>
+              <section data-background="#f05b62">
+                <h1 style="color: #fafafa;">Quick Recap</h1>
+            </section>
+      
+
+    <!-- History of HTML-->
+    <!-- <section>
+      <h3>History of HTML</h3>
+      <ul>
+        <li>Invented by Tim Berners-Lee</li>
+        <li>Created "hypertext" to share scientific papers</li>
+        <li>First web page August 6, 1991</li>
+        <li>Standardized by w3 Consortium (pack of super nerds)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>History of HTML</h3>
+      <ul>
+        <li><strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage</li>
+        <li>Early 90s</li>
+        <li>HTML 4 in 1997</li>
+        <li>XHTML in 2000</li>
+        <li>HTML 5 in 2014</li>
+      </ul>
+    </section> -->
+
+    <!-- Terms-->
+    <section>
+      <h3>Terms</h3>
+      <ul>
+        <li><strong>Web design</strong><br />
+        The process of planning, structuring and creating a website</li>
+        <li><strong>Web development</strong><br />
+        The process of programming dynamic web applications</li>
+        <li><strong>Front end</strong><br />
+        The outwardly visible elements of a website or application</li>
+        <li><strong>Back end</strong><br />
+        The inner workings and functionality of a website or application.</li>
+      </ul>
+    </section>
+
+    <!-- Nitty gritty 1 - Clients and servers -->
+    <!--<section>
+      <h3>Clients and servers</h3>
+      <p>How your computer accesses websites</p>
+      <img src = "img/client-server.png" alt="Diagram showing computer connecting to server"/>
+    </section>-->
+
+    <!-- Nitty gritty 2 - Tools -->
+    <section>
+      <h3>Tools</h3>
+      <ul>
+        <li><strong>Browser</strong><br />
+        Chrome<br />
+        Firefox</li>
+        <li><strong>Development Toolkit</strong><br />
+        Chrome - Inspector<br />
+        Firefox - Firebug</li>
+        <li><strong>Text Editor</strong><br />
+        <a href="http://www.sublimetext.com/" target="_blank">Sublime Text</a> - Windows, Mac, Linux<br />
+        <a href="http://brackets.io/" target="_blank">[ ] Brackets</a> - Windows, Mac<br />
+        <a href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a> - Windows<br />
+        <a href="http://www.atom.io/" target="_blank">Atom</a> - Windows, Mac
+      </ul>
+    </section>
+
+    <!-- Folder Structure -->
+    <section>
+      <h3>Get Started: Folder Structure</h3>
+      <p>All the files for your site should be stored within the same folder.</p>
+
+      <div class="halfblock">
+      <p class="left-align"><strong>This includes:</strong></p>
+      <ul>
+        <li>HTML Files</li>
+        <li>CSS Files</li>
+        <li>Images</li>
+        <li>Script files</li>
+        <li>Anything else that will appear on your site</li>
+      </ul>
+      <p class="left-align" style="margin-top: .5em;"><small>Note: File names should not include spaces or special characters. File names ARE case sensitive.</small></p>
+      </div>
+    </section>
+      <section>
+      <h3>What is HTML?</h3>
+      <p>If you 'view the source', you see this</p>
+      <img src = "images/homepage-html.png" alt="Screenshot of the Bizstream Academy page source code">
+    </section>
+    <section>
+      <h3>Anatomy of an HTML element</h3>
+      <ul>
+        <li><strong>Element</strong>
+          <ul>
+            <li>An individual component of HTML</li>
+            <li>Paragraph, heading, table, list, div, link, image, etc.</li>
+          </ul>
+        </li>
+        <li><strong>Tag</strong>
+          <ul>
+            <li>Marks the beginning &amp; end of an element</li>
+            <li>Opening tag and Closing Tag</li>
+            <li>Tags contain characters that indicate the tag's purpose
+<pre><code class ="html">&lt;tagname&gt;Stuff in the middle&lt;/tagname&gt;</code></pre>
+            </li>
+            <li>
+<pre><code class ="html">&lt;p&gt; This is a sample paragraph.&lt;/p&gt;</code></pre>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+     <section>
+      <h3>Anatomy of an HTML element</h3>
+      <ul>
+        <li><strong>Attribute</strong>
+          <ul>
+            <li>Provides additional information about the HTML element</li>
+            <li>Class, ID, language, style, identity, source</li>
+            <li>Placed inside an opening tag, before the right angle bracket.</li>
+          </ul>
+        </li>
+        <li><strong>Value</strong>
+          <ul>
+            <li>Value is the value assigned to a given attribute.</li>
+            <li>Values must be contained inside quotation marks.</li>
+            <li>
+<pre><code class ="html">&lt;div id="copyright"&gt;&copy;BizStream Academy logo 2016&lt;/div&gt;
+&lt;img src="my_picture.jpg" /&gt;
+&lt;a href="http://www.bizstreamacademy.com"&gt;BizStream Academy&lt;/a&gt;
+</code></pre>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+     <section>
+                <h3>CSS: What is it?</h3>
+                <p>CSS = <strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heets</p>
+                <p>CSS is a "style sheet language" that lets you style the elements on your page.</p>
+                <p>CSS is works in conjunction with HTML, but is not HTML itself.</p>
+            </section>
+<section>
+                <h3>The CSS Rule</h3>
+                <pre><code class = "css">selector {
+  property: value;
+}
+</code></pre>
+                <ul>
+                    <li>A block of CSS code is a rule.</li>
+                    <li>The rule starts with a selector.</li>
+                    <li>It has sets of properties and values.</li>
+                    <li>A property-value pair is a declaration.</li>
+                </ul>
+            </section>
+
+            <!-- CSS Syntax -->
+            <section>
+                <h3>CSS Syntax</h3>
+                <p>Declarations: Property and value of style you plan to use on HTML element. </p>
+                <p>Declarations end with a semicolon</p>
+                <p>Declaration groups are surrounded by curly brackets.</p>
+                <pre><code class="css">selector {
+  property: value;
+  property: value;
+  property: value;
+}
+</code></pre>
+            </section>
+
+    
             <section data-background="#f05b62">
                 <h1 style="color: #fafafa;">Standard Practices</h1>
             </section>
@@ -176,7 +346,7 @@
             </section>
             <section>
                 <h3>Let's Develop It</h3>
-                <p>Include the given reset.css file into your index.html file. Remember: this is done by using a link html element. If you get stuck, refer to the head portion of the reference.html file.</p>
+                <p>Include the given reset.css file into your index.html file. Remember: this is done by using a link html element. If you get stuck, refer to the head portion of the structure.html file.</p>
             </section>
             <section>
                 <h3>Standard widths and sizes</h3>
@@ -233,7 +403,7 @@
             </section>
             <section>
                 <h3>Let's Develop It</h3>
-                <p>Copy over all of the content within the div with the ID of main-content from the reference.html to your index.html file.</p>
+                <p>Copy over all of the content within the div with the ID of main-content from the structure.html to your index.html file.</p>
                 <p>Add a fluid with to the container class in your main.css file with a max width of 1200px.</p>
             </section>
             <section data-background="#f05b62">
@@ -251,42 +421,7 @@
                     </ul>
             </section>
 
-            <!-- Specifications-->
-            <section>
-                <h2>Quick History of HTML5</h2>
-                <ul>
-                    <li>
-                        <strong class="blue">2004:</strong>"WHAT" Working group formed. (WHATWG)
-                        <br/>
-                        <p>Members from Apple, Mozilla, &amp; Opera set out to develop HTML5.</li>
-                    <li class="fragment">
-                        <strong class="blue">2008:</strong>First version of HTML5 published</br>
-                        <p>First draft is written, but changes are still coming. HTML5 is continually evolving.</p>
-                    </li>
-                    <li class="fragment">
-                        <strong class="blue">2008:</strong>Firefox 3 becomes HTML5 compatable.</li>
-                    <li class="fragment">
-                        <strong class="blue">Jan. 2010:</strong>YouTube now offers HTML5 video player.</li>
-
-
-                </ul>
-            </section>
-            <section>
-                <h2>Okay, not that quick history of HTML5</h2>
-                <ul>
-
-                    <li class="fragment">
-                        <strong class="blue">April 2010:</strong> Steve Jobs trashes Flash &amp; bans it on all Apple devices in favor of HTML5.</li>
-                    <li class="fragment">
-                        <strong class="blue">Dec. 2010:</strong> Chrome opens HTML5 web store.</li>
-                    <li class="fragment">
-                        <strong class="blue">Sept. 2011:</strong> 34% of top 100 sites use HTML5</li>
-                    <li class="fragment">
-                        <strong class="blue">Sept. 2012:</strong> WC3 proposes stable release of HTML5 by end of 2014!</li>
-                    <li class="fragment">
-                        <strong class="blue">Oct. 2014:</strong> Final and complete!</li>    
-                </ul>
-            </section>
+           
             <!-- Browser compatibility -->
             <aside class="notes">up-to-date-stats as of 7/2015</aside>
             <section>
@@ -418,8 +553,8 @@
             <section>
                 <h3>Let's Develop It</h3>
                 <ul>
-                    <li>Refer to the HTML in the reference.html file within the body tags and copy it over to your index.html file</li>
-                    <li>If you prefer to edit the content later that is ok. But for now we want your index.html file to have the same HTML5 structure as the reference.html file. </li>
+                    <li>Refer to the HTML in the structure.html file within the body tags and copy it over to your index.html file</li>
+                    <li>If you prefer to edit the content later that is ok. But for now we want your index.html file to have the same HTML5 structure as the structure.html file. </li>
                 </ul>
             </section>
             <section data-background="#f05b62">
@@ -894,6 +1029,7 @@ nav ul {
                         <li>Add a border to the images to make them stand out a bit more</li>
                     </ul>
             </section>
+        
                 <section data-background="#f05b62">
                     <h1 style="color: #fafafa;">SVG Graphics</h1>
                 </section>
